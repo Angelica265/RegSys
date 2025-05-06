@@ -62,7 +62,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NIDOY_LD1_FINALS</title>
+    <title>LAAB_REGISTRATION_SYSTEM</title>
     <style>
         body {
             font-family: sans-serif;
