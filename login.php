@@ -136,7 +136,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
         }
 
         .login-button {
-            background-color: #7851A9;
+            background-color: #23C1FF;
             color: white;
         }
 
@@ -145,7 +145,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
         }
 
         .create-account-button {
-            background-color: #4CAF50;
+            background-color: #23C1FF;
             color: white;
             margin-top: 10px;
         }
