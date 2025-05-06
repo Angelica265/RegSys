@@ -125,10 +125,10 @@
     <nav>
         <ul>
             <li><a href="javascript:void(0);" onclick="showSection('home')">Home</a></li>
-        <li><a href="javascript:void(0);" onclick="showSection('account')">Account</a></li>
         <li><a href="javascript:void(0);" onclick="showSection('shop')">Shop</a></li>
         <li><a href="javascript:void(0);" onclick="showSection('cart')">Cart</a></li>
         <li><a href="javascript:void(0);" onclick="showSection('contact')">Contact Us</a></li>
+        <li><a href="./logout.php"><button class="logout-button" >Log Out</button></a></li>
 
         </ul>
     </nav>
