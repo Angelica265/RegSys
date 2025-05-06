@@ -117,7 +117,7 @@ if($authenticated){
             display: flex;
             justify-content: center;
             align-items: center;
-            background-image: url(https://thumbs.dreamstime.com/b/coastal-laundry-room-design-modern-stylish-decor-featuring-white-blue-cabinets-large-rug-comfortable-bench-suitable-351175525.jpg);
+            background-color: #f5f5f5;
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
