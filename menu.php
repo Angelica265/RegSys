@@ -159,23 +159,23 @@ footer {
         <h2>Featured Products</h2>
         <div class="featured-products">
             <div class="product-card">
-                <img src="C:\LAAB_LAB\pic\istockphoto-611066366-612x612.jpg" alt="Running Shoes">
+                <img src="./pic/istockphoto-611066366-612x612.jpg" alt="Running Shoes">
                 <div class="product-label">Running Shoes</div>
             </div>
             <div class="product-card">
-                <img src="C:\LAAB_LAB\pic\8eb9c16b5d408abdf3139bece65d99ac.jpg" alt="Casual Shoes">
+                <img src="./pic/8eb9c16b5d408abdf3139bece65d99ac.jpg" alt="Casual Shoes">
                 <div class="product-label">Casual Shoes</div>
             </div>
             <div class="product-card">
-                <img src="C:\LAAB_LAB\pic\sneakers.webp" alt="Sneakers">
+                <img src="./pic/sneakers.webp" alt="Sneakers">
                 <div class="product-label">Sneakers</div>
             </div>
             <div class="product-card">
-                <img src="C:\LAAB_LAB\pic\forgrils.webp" alt="Girls' Shoes">
+                <img src="./pic/forgrils.webp" alt="Girls' Shoes">
                 <div class="product-label">Girls' Shoes</div>
             </div>
             <div class="product-card">
-                <img src="C:\LAAB_LAB\pic\boots.jpg" alt="Boots">
+                <img src="./pic/boots.jpg" alt="Boots">
                 <div class="product-label">Boots</div>
             </div>
         </div>
