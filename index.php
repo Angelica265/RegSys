@@ -193,7 +193,7 @@ if($authenticated){
         }
 
         .create-account-button {
-            background-color: #4CAF50;
+            background-color: #23C1FF;
             color: white;
             margin-top: 10px;
         }
