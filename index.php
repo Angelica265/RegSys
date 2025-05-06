@@ -184,7 +184,7 @@ if($authenticated){
         }
 
         .login-button {
-            background-color: #7851A9;
+            background-color: #23C1FF;
             color: white;
         }
 
@@ -234,7 +234,7 @@ if($authenticated){
                 <label for="Lname">Last Name</label>
                 <input type="text" id="Lname" name="Lname" value="<?= $last_name; ?>" required placeholder="Enter your Last Name">
                 <label for="em">Email</label>
-                <input type="email" id="em" name="em" value="<?= $email; ?>" required placeholder="Enter your Last Name">
+                <input type="email" id="em" name="em" value="<?= $email; ?>" required placeholder="Enter your Email">
             </div>
 
             <div class="input-group">
