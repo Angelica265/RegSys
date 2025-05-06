@@ -6,115 +6,137 @@
     <title>WalkWise</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-            background-color: #f0f0f0;
-        }
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+}
 
-        header {
-            background-color: #6b726b;
-            color: white;
-            padding: 10px 0;
-            text-align: center;
-        }
+header {
+    background-color: #6b726b;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
 
-        nav {
-            background-color: #333;
-        }
+nav {
+    background-color: #2c2c2c;
+}
 
-        nav ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-            text-align: center;
-        }
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 12px 0;
+    text-align: center;
+}
 
-        nav ul li {
-            display: inline;
-            margin: 0 15px;
-        }
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
 
-        nav ul li a {
-            color: white;
-            text-decoration: none;
-            font-size: 18px;
-        }
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
 
-        nav ul li a:hover {
-            text-decoration: underline;
-        }
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #4CAF50;
+}
 
-        .featured-products {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 20px;
-            padding: 20px;
-        }
+.featured-products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+    padding: 40px 20px;
+}
 
-        .product-card {
-            background-color: white;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            text-align: center;
-            overflow: hidden;
-            display: flex;
-            flex-direction: column;
-            height: 100%;
-        }
+.product-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
-        .product-card img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
 
-        .product-label {
-            font-size: 24px;
-            padding: 10px 0;
-            font-weight: bold;
-        }
+.product-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
 
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 20px;
-            margin-top: auto;
-        }
+.product-label {
+    font-size: 20px;
+    padding: 15px 10px;
+    font-weight: bold;
+    color: #333;
+    border-top: 1px solid #eee;
+    background-color: #fafafa;
+}
 
-        section {
-            padding: 40px 20px;
-        }
+section {
+    padding: 50px 20px;
+}
 
-        h2 {
-            color: #4CAF50;
-        }
+h2 {
+    color: #4CAF50;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
 
-        form input, form textarea {
-            display: block;
-            width: 100%;
-            margin-bottom: 15px;
-            padding: 10px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
+form input,
+form textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    resize: vertical;
+}
 
-        form button {
-            background-color: #4CAF50;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
+form button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
 
-        form button:hover {
-            background-color: #45a049;
-        }
+form button:hover {
+    background-color: #388e3c;
+}
+
+footer {
+    background-color: #2c2c2c;
+    color: #fff;
+    text-align: center;
+    padding: 25px 20px;
+    font-size: 14px;
+    margin-top: auto;
+}
+
     </style>
 </head>
 <body>
